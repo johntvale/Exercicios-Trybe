@@ -27,3 +27,7 @@ body {
   max-width: 60%;
   margin: 0 auto;
 }
+
+.distanciaRadio{
+  padding: 5px;
+}
