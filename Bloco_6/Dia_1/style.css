@@ -6,7 +6,7 @@ body {
   background-color: azure;
 }
 
-#cabecalho{
+#cabecalho {
   padding: 20px;
   max-width: 80%;
   margin: 0 auto;
@@ -28,6 +28,10 @@ body {
   margin: 0 auto;
 }
 
-.distanciaRadio{
+.distanciaRadio {
   padding: 5px;
+}
+
+textarea {
+  width: 100%;
 }

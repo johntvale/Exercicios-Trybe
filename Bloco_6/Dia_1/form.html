@@ -54,7 +54,7 @@
         </div>
 
         <div class="distancia-campos">
-          <p>tipo de residência</p>
+          <p>Tipo de residência:</p>
           <div class='distanciaRadio'>
             <input type="radio" name ='tipo de residência' id='tipo-residencia-casa'>
             <label required for="tipo-residencia-casa">Casa</label>
@@ -67,6 +67,37 @@
       <!-- Segundo campo: Dados do último emprego -->
       <fieldset name='Ultimo emprego' id = 'ultimo-emprego'>
         <legend>Dados do último emprego</legend>
+        <div class="distancia-campos">
+          <label for="resumo-curriculo">Resumo do currículo:
+            <br><textarea id="resumo-curriculo" name="textarea" maxlength="1000" cols="50" rows="5" required></textarea>
+          </label><br>
+        </div>
+
+        <div class="distancia-campos">
+          <label for="cargo">Cargo:
+            <input type="text" id="cargo" maxlength="40" required>
+          </label><br>
+        </div>
+
+        <div class="distancia-campos">
+          <label for="descricao-cargo">Descrição do cargo:
+            <br><textarea id="descricao-cargo" name="textarea" maxlength="500" cols="50" rows="5" required></textarea>
+          </label><br>
+        </div>
+
+        <div class="distancia-campos">
+          <label for="data-Inicio">Data de início:
+            <input type="date" id="data-Inicio" required>
+          </label>
+        </div>
+
+        
+
+
+
+
+
+
       </fieldset>
     </form>
   </section>
