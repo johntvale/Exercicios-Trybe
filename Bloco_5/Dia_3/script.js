@@ -71,19 +71,16 @@ createButton();
 const clickHoliday = document.getElementById('btn-holiday');
 clickHoliday.addEventListener('click', function() {
   const holidayNumbers = document.getElementsByClassName('holiday');
-  console.log(holidayNumbers);
+
   for (let index3 = 0; index3 < holidayNumbers.length; index3 += 1) {
     const actualClass = holidayNumbers[index3].classList.value;
-    console.log(actualClass);
+    
     if (actualClass === 'day holiday') {
-      console.log(1);
       holidayNumbers[index3].classList.add('changeBG');
     } else if (actualClass === 'day holiday friday') {
       holidayNumbers[index3].classList.add('changeBG');
-      console.log(2);
     } else {
       holidayNumbers[index3].classList.remove('changeBG');
-      console.log(3);
     }
   }
 });
