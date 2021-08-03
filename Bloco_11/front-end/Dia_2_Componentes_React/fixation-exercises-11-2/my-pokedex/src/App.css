@@ -1,12 +1,14 @@
 body {
   background-color: #282c34;
   box-sizing: border-box;
+  margin: 0 auto;
 }
 
 .header {
   text-align: center;
   color: aliceblue;
   padding: 20px;
+  min-width: 325px;
 }
 
 .content {
@@ -15,6 +17,7 @@ body {
   background-color: aliceblue;
   margin: 0 8%;
   padding: 10px;
+  min-width: 325px;
 }
 
 .pokedex {
